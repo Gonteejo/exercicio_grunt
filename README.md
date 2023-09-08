@@ -1,4 +1,4 @@
-# exercicio_grunt
+# Exercício Grunt
 
 Exercício MÓDULO 18│Automação de tarefas Grunt
 
