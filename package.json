@@ -4,8 +4,12 @@
   "description": "Exercício MÓDULO 18│Automação de tarefas Grunt",
   "main": "index.js",
   "scripts": {
+    "grunt": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1"
+  }
 }
