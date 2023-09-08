@@ -1,6 +1,6 @@
 # Exercício Grunt
 
-Exercício MÓDULO 18│Automação de tarefas Grunt
+Exercício MÓDULO 18│Automação de tarefas Grunt\
 \
 A entrega deste exercício\
 consiste em:\
