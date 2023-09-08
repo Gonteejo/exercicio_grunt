@@ -14,28 +14,28 @@
 <body>
     <div class="container">
         <h1>Calculadora de empréstimos</h1>
-        <form>
+        <form id="submit_form">
             <div>
                 <label>Valor emprestado</label>
-                <input type="number" placeholder="R$ 1.000,00">
+                <input id="valor_emprestado" type="number" placeholder="R$ 1.000,00">
             </div>
             <div>
                 <label>Nº. de meses</label>
-                <input type="number" placeholder="12" min="1" step="1">
+                <input id="numero_parcelas" type="number" placeholder="12" min="1" step="1">
             </div>
             <div>
                 <label>Taxa de Juros Mensal (%)</label>
-                <input type="number" placeholder="1,00">
+                <input id="taxa_juros" type="number" placeholder="1,00">
             </div>
             <button type="submit" class="success">Enviar</button>
             <button type="reset" class="light">Limpar</button>
         </form>
         <hr>
         <div class="resultado">
-            <p>Valor emprestado = <span id="valor_emprestado"></span></p>
-            <p>Nº de meses = <span id="parcelas"></span></p>
-            <p>Valor da parcela = <span id="valor_parcelas"></span></p>
-            <p>O valor total desse empréstimo é <span id="valor_pago"></span> reais!<br>Será pago <span id="valor_juros"></span> de juros.</p>
+            <p>Valor emprestado = R$<span id="mostrar_emprestado"></span></p>
+            <p>Nº de meses = <span id="mostrar_parcelas"></span></p>
+            <p>Valor da parcela = R$<span id="mostrar_valor_parcelas"></span></p>
+            <p>O valor total desse empréstimo é R$<span id="mostrar_valor_pago"></span> reais!<br>Será pago R$<span id="mostrar_valor_juros"></span> de juros.</p>
         </div>
     </div>
     <script src="@@ENDERENCO_DO_JS"></script>
